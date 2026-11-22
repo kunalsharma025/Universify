@@ -1,0 +1,36 @@
+# PyInstaller build outputs
+dist/
+build/
+*.exe
+
+# App data created when the app runs (your music folder, last song, favourites)
+library.json
+last_played.json
+favourites.json
+guest_start.json
+
+# Old login files (login was removed, these are leftovers)
+youtube_auth.json
+youtube_accounts/
+youtube_active.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Songs and videos (never upload your music)
+*.flac
+*.mp3
+*.wav
+*.ogg
+*.aac
+*.m4a
+*.mp4
+*.mkv
+
+# Secrets
+.env
+
+# Zips and generated docs (not part of the code)
+*.zip
+Universify-Explained-DRAFT.html
